@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ตรวจสอบคำนำหน้านาม</title>
+</head>
+<body>
+    <h3>ตรวจสอบเพศของคำนำหน้านาม</h3>
+    <form action="check.php" method="get">
+       กรอบคำนำหน้านาม : 
+       <!-- <input type="text" name="prefix"> -->
+       <select name="prefix">
+        <option value="นาย">นาย</option>
+        <option value="นาง">นาง</option>
+        <option value="นางสาว">นางสาว</option>
+        <option value="เด็กชาย">เด็กชาย</option>
+        <option value="เด็กหญิง">เด็กหญิง</option>
+       </select>
+       <input type="submit" value="ตรวจสอบ">
+    </form>
+</body>
+</html>
